@@ -19,8 +19,6 @@ jobs:
         python-version: '3.x'
     - name: 'Install requests'
       run: python -m pip install --upgrade requests
-    - name: 'Install hashlib'
-      run: python -m pip install --upgrade hashlib
     - name: 'Install json'
       run: python -m pip install --upgrade json
     - name: 'Install datetime'
