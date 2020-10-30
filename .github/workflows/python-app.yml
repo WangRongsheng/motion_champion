@@ -20,4 +20,4 @@ jobs:
     - name: 'Install requests'
       run: pip install requests
     - name: 'motion_champion'
-      run: python signin.py
+      run: python champion.py
